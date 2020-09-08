@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: Tahoma,Helvetica,"Liberation Sans";
+}
+
+.formal {
+    font-family:'LeagueGothic-Regular',sans-serif;
+    font-size:1.6em;
+    padding: 6px 9px;
+}
+
+.letterpress{
+    color: blue;
+    font-size:1.6em;
+    padding: 6px 9px;
+}
+
+.offset{
+    text-align: center;
+}

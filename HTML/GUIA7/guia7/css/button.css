@@ -1,0 +1,18 @@
+input[type="button"] {
+    border: 2px groove #7c93ba;
+    cursor:pointer; 
+    padding: 5px 25px;
+    background-color: #6b6dbb; 
+    background: -webkit-gradient(linear, left top, left bottom, from(#88add7), to(#6b6dbb));
+    background: -webkit-linear-gradient(top, #adb4c0, #adb4c0);
+    background: -moz-linear-gradient(top, #adb4c0, #adb4c0);
+    background: -o-linear-gradient(top, #adb4c0, #adb4c0);
+    background: linear-gradient(top, #adb4c0, #adb4c0);
+    font-family: Andika, Arial, sans-serif; 
+    color: #000000;
+    font-size:1.1em;
+    letter-spacing:.1em;
+    font-variant:small-caps;
+   
+}
+

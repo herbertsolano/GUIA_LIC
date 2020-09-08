@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <header>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="">Guias 1-5</a>
+                    <ul class="submenu">
+                        <li><a href="../GUIA1/HTML/GUIA1-index.html">Guia #1</a></li>
+                        <li><a href="../GUIA2/HTML/GUIA2-index.html">Guia #2</a></li>
+                        <li><a href="../GUIA3/HTML/GUIA3-index.html">Guia #3</a></li>
+                        <li><a href="../GUIA4/index_guia4.html">Guia #4</a></li>
+                        <li><a href="../GUIA5/index_guia5.html">Guia #5</a></li>
+                    </ul>
+                </li>
+                <li><a href="index_guia6.html">GUIA #6</a>
+                    <ul class="submenu">
+                        <li><a href="../GUIA6/Ejercicio1/index.html">Ejercicio 1</a></li>
+                        <li><a href="../GUIA6/Ejercicio2/index.html">Ejercicio 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Guias 7-10</a>
+                    <ul class="submenu">
+                        <li><a href="../GUIA7/index_guia7.html">Guia #7</a></li>
+                        <li><a href="../GUIA8/index_guia8.html">Guia #8</a></li>
+                        <li><a href="../GUIA9/index_guia9.html">Guia #9</a></li>
+                        <li><a href="../GUIA10/index_guia10.html">Guia #10</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container" id="container">
+        <div class="tabla" id="tabla">
+            <div class="top">
+                Tabla de Datos
+            </div>
+            <div class="body">
+                <div class="sec1">
+                    <div class="table" id="table">
+                    </div>
+                </div>
+                <div class="sec2">
+                    <form id="actualizar">
+                        <div class="top">
+                            Celda a Actualizar
+                        </div>
+                        <div class="row">
+                            <input type="number" min="0" max="" name="x" id="x" placeholder="Pocisión X" autocomplete="off" required>
+                        </div>
+                        <div class="row">
+                            <input type="number" min="0" max="" name="y" id="y" placeholder="Pocisión Y" autocomplete="off" required>
+                        </div>
+                        <div class="row">
+                            <input type="text" name="data" id="data" placeholder="Valor" autocomplete="off" required>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal">
+            <div class="body">
+                <form id="dimensiones">
+                    <div class="top">
+                        Ingrese las dimensiones
+                    </div>
+                    <div class="row">
+                        <input type="text" name="x" id="x" placeholder="X" autocomplete="off" required>
+                    <span>X</span>
+                    <input type="text" name="y" id="y" placeholder="Y" autocomplete="off" required>
+                    </div>                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+*{
+    font-family: sans-serif;
+}
+body,html,.container{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin: 0px ;
+    display: grid;
+    grid-template-columns: 100%;
+    background: #aaa;
+}
+
+.container{    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.modal{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.modal .body{
+    width: 100%;
+    max-width: 350px;
+}
+
+.modal .body form{
+    width: 100%;
+    background: #A00EAD;
+    color: #fff;    
+}
+.modal .body form .top{
+    background: #5C2561;
+    font-size: 1.4em ;
+    padding: 10px 10px 10px 10px;
+}
+.modal .body form .row{
+    padding: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: 46% 8% 46%;
+}
+.modal .body form .row span{
+    font-size: 1.7em;
+}
+.modal .body form .row input{
+    padding: 3px 10px 3px 10px;
+    font-size: 1.3em;
+    border: 2px solid #5C2561;
+}
+.modal .body form button{
+    width: 100%;
+    max-width: 100px;
+    height: 35px;
+    background: #5C2561;
+    color: #fff;
+    border: none;
+    margin-bottom: 10px;
+    border: 2px solid #5C2561;
+    cursor: pointer;
+}
+.modal .body form button:hover{    
+    background: #590861;
+}
+
+
+
+.tabla{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+    width: 90%;
+    height: 100%;
+}
+.tabla .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+.tabla .body{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+
+
+.table{
+    display: grid;
+    grid-template-columns: 100%;
+    width: 80%;
+    min-width: 100px;
+    max-width: 1000px;
+    height: 80%;
+    min-height: 100px;
+    max-width: 1000px;
+}
+.table .row{
+    display: grid;
+}
+.table .row .cell{    
+    background: #DA57E6;
+    border: 1px solid #5C2561;
+    transition: .1s;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+}
+.table .row .cell:hover{
+    background: #A00EAD;
+}
+.tabla .row .change{
+    background: #590861;
+    color: #fff;
+    transition-delay: .5s;
+    
+}
+
+
+.sec2 form{
+    width: 100%;
+    background: #A00EAD;
+    color: #fff;    
+}
+.sec2 form .top{
+    background: #5C2561;
+    font-size: 1.4em ;
+    padding: 10px 10px 10px 10px;
+}
+.sec2 form .row{
+    padding: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: 100%;
+}
+.sec2 form .row input{
+    padding: 3px 10px 3px 10px;
+    font-size: 1.3em;
+    border: 2px solid #5C2561;
+}
+.sec2 form button{
+    width: 100%;
+    max-width: 100px;
+    height: 35px;
+    background: #5C2561;
+    color: #fff;
+    border: none;
+    margin-bottom: 10px;
+    border: 2px solid #5C2561;
+    cursor: pointer;
+}
+.modal .body form button:hover{    
+    background: #590861;
+}/* MENU */
+
+.navegacion{
+	width: 95%;
+	margin: 30px auto;
+	background: #000;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 10px 20px;
+	color: #ffffff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* SUBMENU*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 190%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 10px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}

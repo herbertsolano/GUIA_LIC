@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <header>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="">Guias 1-5</a>
+                    <ul class="submenu">
+                        <li><a href="../GUIA1/HTML/GUIA1-index.html">Guia #1</a></li>
+                        <li><a href="../GUIA2/HTML/GUIA2-index.html">Guia #2</a></li>
+                        <li><a href="../GUIA3/HTML/GUIA3-index.html">Guia #3</a></li>
+                        <li><a href="../GUIA4/index_guia4.html">Guia #4</a></li>
+                        <li><a href="../GUIA5/index_guia5.html">Guia #5</a></li>
+                    </ul>
+                </li>
+                <li><a href="index_guia6.html">GUIA #6</a>
+                    <ul class="submenu">
+                        <li><a href="../GUIA6/Ejercicio1/index.html">Ejercicio 1</a></li>
+                        <li><a href="../GUIA6/Ejercicio2/index.html">Ejercicio 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Guias 7-10</a>
+                    <ul class="submenu">
+                        <li><a href="../GUIA7/index_guia7.html">Guia #7</a></li>
+                        <li><a href="../GUIA8/index_guia8.html">Guia #8</a></li>
+                        <li><a href="../GUIA9/index_guia9.html">Guia #9</a></li>
+                        <li><a href="../GUIA10/index_guia10.html">Guia #10</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <label class="header" for="">Gasolinera</label>
+    <div class="table">
+        <div class="top">
+            <div class="cell">Regular</div>
+            <div class="cell">Especial</div>
+            <div class="cell">Diésel</div>
+        </div>
+        <div class="row">
+            <div class="cell">$4.27</div>
+            <div class="cell">$4.05</div>
+            <div class="cell">$3.96</div>
+        </div>
+    </div>
+    <form action="" id="formComprar" class="form">
+        <div class="top">Formulario de Compra</div>
+        <div class="body">
+            <div class="group">
+                <label for="">Tipo de Gasolina</label>
+                <div class="row">
+                    <input type="radio" name="tipo" id="tipo" value="0" required>
+                    <label for="tipo1">Regular</label>
+                </div>
+                <div class="row">
+                    <input type="radio" name="tipo" id="tipo" value="1" required>
+                    <label for="tipo2">Especial</label>
+                </div>
+                <div class="row">
+                    <input type="radio" name="tipo" id="tipo" value="2" required>
+                    <label for="tipo3">Diésel</label>
+                </div>
+            </div>
+            <div class="row">
+                <input type="number" name="cant" id="cant" min="0.05" max="150" step="0.05" placeholder="Cantidad de Galones" autocomplete="off" required>
+            </div>
+            <div class="row result">
+                <input type="text" name="result" id="result" placeholder="Total" readonly="true">
+            </div>
+            <button type="submit">Comprar</button>
+        </div>
+    </form>
+    <script src="js/index.js"></script>
+</body>
+</html>

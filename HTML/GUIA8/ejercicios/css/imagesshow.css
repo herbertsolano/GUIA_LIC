@@ -1,0 +1,39 @@
+
+#imgwrapper {
+    background-color: grey;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffbc', endColorstr='#f9fccf',GradientType=1 ); 
+    border-radius: 25px;
+    border: 6px ridge rgba(9, 11, 12, 0.75);
+    height: auto;
+    margin: 20px auto;
+    padding: 6px 18px;
+    width: 80%;
+}
+
+#imgwrapper p {
+    color: black;
+    font: Normal 1em/1 'Cantarell-Regular',Arial,Helvetica,"Liberation Sans";
+}
+img {
+
+	display: block;
+	height: 302px;
+	width: 500px;
+	margin: 0 auto;
+}
+.botones{
+    position: relative;
+    top: 140px;
+    display: flex;
+}
+#btnS{
+    background-color: steelblue;
+    margin-left: 650px;
+    height: 50px;
+    width: 45px;
+}
+#btnA{
+    background-color: steelblue;
+    height: 50px;
+    width: 45px;
+}

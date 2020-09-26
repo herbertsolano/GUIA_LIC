@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-color: gray;
+}
+
+div{
+    background-color: yellow;
+    width: 50%;
+    margin-left: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+
+}
+h1{
+   
+width: 50%;
+margin-left: 350px;
+}
+a{
+    text-decoration: none;
+}
+p{
+
+    width: 400px;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+img{
+    padding-bottom: 30px;
+}
+h3{
+    padding-bottom: 30px;  
+}

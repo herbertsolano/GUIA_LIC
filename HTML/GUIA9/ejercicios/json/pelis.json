@@ -1,0 +1,38 @@
+{
+    "title": "Peliculas - 2020",
+    "description": "Peliculas 2020",
+    "language": "es",
+    "items": [
+        {
+            "id":"1",
+            "title1" : "Hasta el Cielo - 2020",
+            "description1": " Miguel Herrán reconecta con el tipo de cine que le convirtió en el Goya Revelación, ahora con el aura de ídolo mediático gracias a La casa de papel y Élite. Él es el protagonista de este thriller callejero de un gran experto en ese subgénero, Daniel Calparsoro, sobre un joven delincuente que lleva al límite sus capacidades para enfrentarse al que fue su mentor, nada menos que Luis Tosar. Una peli frenética y cañera como su banda sonora, que toda la acción va a ritmo de rap y urbano."
+        },
+        {
+            "id":"2",
+            "title2" : "Los nuevos mutantes - 2020",
+            "description2": "    Mil retrasos ha sufrido el estreno de esta prolongación del universo X-Men, ahora con los primeros alumnos graduados en la escuela de Charles Xavier como protagonistas. Hay ganas de ver a Maisie Williams tras el pinchazo de su 'hermana' Sophie Turner en la anterior entrega. En el reparto también están Antonio Banderas, Rosario Dawson, Anya Taylor-Joy…"
+        },
+        {
+            "id":"3",
+            "title3" : "Mulan 4 - 2020",
+            "description3": "Feminismo a la asiática en este enésimo reboot de los clásicos de Disney. Ya sabéis la historia: una joven china se hace pasar por chico para evitar que su padre sea reclutado en el ejército, y acaba convirtiéndose en una gran guerrera. Hay esperanza de que Disney, que cuenta aquí con los productores de Avatar, haya arriesgado ligeramente a la hora de concebir una película más adulta y no tan entregada a la copia sin gracia como en el caso de El rey león. El estreno de Mulán será otra prueba de fuego para el sector: como explicamos en el enlace de abajo, Disney espera recaudar sobre todo a través de su plataforma de streaming de pago por visión y no de las salas."
+        },
+        {
+            "id":"4",
+            "title4" : "Rifkin's Festival",
+            "description4": "Las últimas películas de Woody Allen lo están teniendo complicado para encontrar una distribución adecuada, pero sus fieles saben dónde encontrarlas. Esta es la que rodó en San Sebastián, con el festival de cine como escenario y un reparto internacional en el que la parte española está cubierta por Elena Anaya, Nathalie Poza y Sergi López. ¿La trama? Un matrimonio acude al evento y cada uno tiene un affair: ella con un director francés y él con una actriz española."
+        },
+        {
+            "id":"5",
+            "title5" : "King's Man: La primera misión - 2020",
+            "description5": "La precuela del universo Kingsman busca algo parecido a los X-Men: primera generación, algo así como un viaje al pasado que también influye en el tono de la película, más cercano al drama de época que al puro cine de acción. Ralph Fiennes marca el paso en una historia sobre el origen del servicio secreto ante el auge de un grupo criminal que quiere destruir el mundo."
+        },
+        {
+            "id":"6",
+            "title6" : "El hombre invisible - 2020",
+            "description6": "    Si alguna vez has pensado que Elisabeth Moss tiene una gestualidad solo apta para el cine de terror en los últimos capítulos de El cuento de la criada, aquí tienes la confirmación. Su cara sostiene esta nueva versión del clásico de H.G. Welles, con ecos actuales porque no deja de ser una metáfora muy sádica del acoso que un hombre puede ejercer sobre una mujer a la que nadie cree. La historia: un científico maltratador muere aparentemente en extrañas circunstancias pero su 'viuda' empieza a ser víctima de sucesos paranormales cuando intenta iniciar una nueva vida."
+        }
+
+    ]
+}

@@ -3,7 +3,7 @@ prettyPrint();
 $('#ascensorBuilding').ascensor({
     AscensorName: 'ascensor',
     ChildType: 'section',
-    AscensorFloorName: 'Home | Implementation | HTML | Jquery | CSS | Smartphone | Credits | hola  | salu  | como',
+    AscensorFloorName: 'Index | Medusa | Cobra asiática | Pulpo | Rana | Pez piedra | Tiburón tigre | Hipopótamo | Mosquito | Elefante',
     Time: 1000,
     WindowsOn: 1,
     Direction: 'chocolate',

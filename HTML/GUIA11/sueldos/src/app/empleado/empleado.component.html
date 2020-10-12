@@ -1,0 +1,31 @@
+<div>
+    <h2>Formulario Sueldo</h2>
+      <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input type="text" class="form-control" id="nombre" [(ngModel)]="nombre" name="nombre">
+      </div>
+      <div class="form-group">
+        <label for="edad">Sueldo</label>
+        <input type="number" class="form-control" id="base" [(ngModel)]="base" name="base">
+      </div>
+      <button (click)="ingresar()" class="btn btn-success">Submit</button>
+  </div>
+  <div>
+    <h2>Sueldo</h2>
+    <table>
+        <thead>
+        <tr>
+        <th>Nombre</th>
+        <th>Sueldo Base</th>
+        <th>Sueldo Neto</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let empledo of registro">
+        <td>{{empledo.nombre}}</td>
+        <td>{{empledo.base}}</td>
+        <td>{{empledo.neto}}</td>
+        </tr>
+        </tbody>
+       </table>
+  </div>
